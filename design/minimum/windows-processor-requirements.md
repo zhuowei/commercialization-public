@@ -2,9 +2,8 @@
 title: Windows Processor Requirements
 ---
 
-Published June 2017
+# Windows Processor Requirements
 
-v.2
 
 This specification details the processors that can be used with Customer Systems
 that include Windows Products (including Custom Images). Updates to this
