@@ -16,18 +16,10 @@ ms.technology: windows-oem
 
 # List of WPA Graphs
 
-
-\[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.\]
-
 The Graph Explorer window in Windows Performance Analyzer (WPA) displays thumbnails of all graphs that you can use to view the data of the current recording. The following sections detail the available graphs for each graph type.
 
-<div class="alert">
-<strong>Note</strong>  
-<p>
-Depending on the trace recorded and saved in the .etl file, not all graphs listed in the following tables may display in the Graph Explorer when performing your analysis.
-</p>
-</div>
- 
+> [!NOTE]
+> Depending on the trace recorded and saved in the .etl file, not all graphs listed in the following tables may display in the Graph Explorer when performing your analysis.
 
 ## System Activity graphs
 
