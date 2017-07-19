@@ -23,7 +23,7 @@ This customization supports: **per-IMSI** value, **per-device** value
 <a href="" id="instructions-"></a>**Instructions:**  
 1.  Create a customization answer file using the contents shown in the following code sample.
 
-    ``` syntax
+    ```
     <?xml version="1.0" encoding="utf-8" ?>  
     <ImageCustomizations xmlns="http://schemas.microsoft.com/embedded/2004/10/ImageUpdate"  
                          Name="IMSSettings"  
@@ -120,7 +120,7 @@ This customization supports: **per-IMSI** value, **per-device** value
 
             The following example shows the customization answer file entries for en-US, fr-CA, and es-MX languages:
 
-            ``` syntax
+            ```
             <Asset Name="LanguageDll/en-US" Source="C:\Path\en-us\DisplayStrings.dll.mui" />
             <Asset Name="LanguageDll/fr-CA" Source="C:\Path\fr-CA\DisplayStrings.dll.mui" />
             <Asset Name="LanguageDll/es-MX" Source="C:\Path\es-MX\DisplayStrings.dll.mui" />
@@ -451,12 +451,8 @@ This customization supports: **per-IMSI** value, **per-device** value
 
          
 
-9.  
-
-    **Important**  
+9.  **Important**<br/>
     Beginning with Windows Phone 8.1 GDR1, the `ShowVoLTEToggle` setting under the CellCore/PerDevice/CellUX/Critical settings path must be set. This ensures that OMA-DM VoLTE features for certain mobile operators are functioning properly. Once you have made this change to your answer file, the `ShowVoLTEToggle` setting in the CellCore/PerIMSI/$(\_\_IMSI)/CellUX/Critical settings path will be ignored. You may remove or leave the per-IMSI setting in your answer file.
-
-     
 
     Set the value for `ShowVoLTEToggle` to one of the following to hide or show the VoLTE toggle.
 
