@@ -30,7 +30,7 @@ The following are the system requirements for running Windows Performance Toolki
 
 -   Windows Performance Analyzer (WPA): Windows 8 or later with the Microsoft .NET Framework 4.5 or later.
 
-You can download the Windows Performance Toolkit by visiting [Windows Insider Program](https://insider.windows.com/).
+You can download the Windows Performance Toolkit by visiting the [Windows Assessment and Deployment Kit](http://go.microsoft.com/fwlink/p/?LinkId=526740) site.
 
 ## Contents
 
